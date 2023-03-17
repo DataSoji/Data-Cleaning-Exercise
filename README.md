@@ -27,12 +27,15 @@ Value, Wage & Release clause were not standardized and had differnt values such 
  After loading the dataset into EXCEL here are some steps carried out:
  
  1. Using 'find and replace' function to remove on printable characters in the names 
+ 
  ![Screenshot (47)](https://user-images.githubusercontent.com/92938944/226068328-de51910d-e38c-4a38-b44d-9bdfdb5b5ad2.png) 
- 3. Using the Trim function to remove excess gaps
- 4. Creating new columns where numerical data ending with M was assigned 10000000, data ending with K was assigned 1000 and others were assigned the value of 1
- 5. Using 'find and replace' function to remove 'Euro' signs and letters M and K from Value, Wage, Release_Clause and Hits. Then changing their data types to decimal 
+ 
+ 2. Using the Trim function to remove excess gaps
+ 3. Creating new columns where numerical data ending with M was assigned 10000000, data ending with K was assigned 1000 and others were assigned the value of 1
+ 4. Using 'find and replace' function to remove 'Euro' signs and letters M and K from Value, Wage, Release_Clause and Hits. Then changing their data types to decimal 
     numbers. Multiplying these columns by their corresponding conditional columns to give actual value.
- 5. Converting Height and weight columns containing two different measures to single measures using some metric conversion methods.    
+ 5. Converting Height and weight columns containing two different measures to single measures using some metric conversion methods.
+     
 ![Screenshot (48)](https://user-images.githubusercontent.com/92938944/226068414-3a67dae0-e7f8-4dd7-adde-5f7860c7439b.png)
 
 In conclusion, data cleaning is one of the most important tasks in data analysis .
