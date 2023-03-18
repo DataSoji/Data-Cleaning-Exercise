@@ -16,9 +16,9 @@ I love playing video games especially the EA sport Franchise game called FIFA. T
 ### Understanding the data
 The data was in a csv format and it was loaded into excel.  On the first glance some players names had special characters
 
-OVA: Players overall analysis or rate in percentage
+OVA: Players overall analysis was in a different data type
 ![Screenshot](https://user-images.githubusercontent.com/92938944/226066333-38b1229c-2bb9-440e-8bc7-cd12d826c4ef.png)
-POT: Players potential in percentage
+POT: Players potential was in a different data type
 Height: Players height was cm, inches and feet
 Weight: Players weight in kg
 Value, Wage & Release clause were not standardized and had differnt values such as M and K
@@ -30,7 +30,7 @@ Value, Wage & Release clause were not standardized and had differnt values such 
  
  ![Screenshot (47)](https://user-images.githubusercontent.com/92938944/226068328-de51910d-e38c-4a38-b44d-9bdfdb5b5ad2.png) 
  
- 2. Using the Trim function to remove excess gaps
+ 2. Using the Trim function to remove excess space
  3. Creating new columns where numerical data ending with M was assigned 10000000, data ending with K was assigned 1000 and others were assigned the value of 1
  4. Using 'find and replace' function to remove 'Euro' signs and letters M and K from Value, Wage, Release_Clause and Hits. Then changing their data types to decimal 
     numbers. Multiplying these columns by their corresponding conditional columns to give actual value.
